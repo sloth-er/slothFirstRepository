@@ -22,3 +22,11 @@ git clone HTTP地址
      git push origin master （第一次加一个-u）
 
 
+更新（目前还无法理解，后续更新）
+git status
+
+git add -A
+
+git commit -a -m "update"
+
+git push origin master -f
