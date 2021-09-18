@@ -23,10 +23,15 @@ git clone HTTP地址
 
 
 更新（目前还无法理解，后续更新）
-git status
+git status(查看仓库当前的状态，显示有变更的文件)
 
-git add -A
+git add -A(是 git add.（所有变化提交到暂存区，包括文件内容修改和新文件不包括被删除的文件）和git add -u(监控已被add的文件，不包括新文件)的集合)
 
-git commit -a -m "update"
+git commit -a -m "update"(能提交修改过，但是没有添加到缓存区的文件git commit -a(只会提交添加到缓存区的文件))
 
 git push origin master -f
+
+
+附加
+
+git log(能查看提交历史，后面加上--pretty=oneline)
