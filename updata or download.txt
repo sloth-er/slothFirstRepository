@@ -29,7 +29,7 @@ git add -A(是 git add.（所有变化提交到暂存区，包括文件内容修
 
 git commit -a -m "update"(能提交修改过，但是没有添加到缓存区的文件git commit -a(只会提交添加到缓存区的文件))
 
-git push origin master -f
+git push origin master -f(本地强制上传到远端)
 
 
 附加
